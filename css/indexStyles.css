@@ -1,0 +1,94 @@
+/*-------Global styles--------*/
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Lato', serif;
+    color: #777;
+}
+
+h1, h2, h3, body {
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    align-content: center;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.bg-img-1, .bg-img-2 {
+    position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-img-1 {
+    background-image: url("/images/Code\ snippet.png");
+    min-height: 100%;
+}
+
+.bg-img-2 {
+    background-image: url("/images/Code\ snippet.png");
+    min-height: 40%;
+}
+
+
+
+.caption {
+    position: absolute;
+    left: 0;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+.caption span.border {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+
+.btn {
+    margin-top: 1em;
+}
+
+.btn a {
+    text-decoration: none;
+    color: black;
+}
+
+#download {
+    border: none;
+    background: none;
+}
+
+.col {
+    position: relative;
+    text-align: center;
+    align-content: center;
+    margin-top: 3em;
+    margin-bottom: 1em;
+}
+
+li {
+    list-style-type: none;
+    font-size: 1.5em;
+}
+li a {
+ 
+}
+
+i {
+    padding-right: 10px;
+}
+

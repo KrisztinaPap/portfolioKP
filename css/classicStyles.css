@@ -1,0 +1,76 @@
+
+
+/*-------Global styles--------*/
+
+    h1, h2, h3, h4 {
+    font-family: Merienda, sans-serif;
+    font-weight: 700;
+}
+
+h2, h3, h4 {
+    text-align: center;
+}
+
+h3, h4 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+/*--------Profile image------------*/
+
+#profile-img {
+    max-height: 400px;
+    align-content: center;
+    vertical-align: center;
+}
+
+/*--------Buttons------------*/
+
+.btn a {
+    text-decoration: none;
+    color: black;
+}
+
+/*--------External link and download buttons------------*/
+
+#download, #MyLinkedIn, #MacEwan, #Lynda {
+    border: none;
+    background: none;
+}
+
+/*--------Testimonials------------*/
+
+.blockquote {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+/*---------FAQs (accordion)-----*/
+
+.accordionquestion {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-style: none;
+    font-weight: 500;
+    color: black;
+}
+#contact {
+    width: 50%;
+}
+
+
+/*--------Footer------------*/
+
+#footer {
+    display: block;
+    height: 100px;
+}
+
+/*--------Media queries------------*/
+
+@media screen and (max-width: 959px) {
+    h1, h2, h3 {
+        text-align: center;
+    }
+    #contact {
+        width: 100%;
+    }
+}

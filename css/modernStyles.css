@@ -1,0 +1,64 @@
+/*-------Global styles--------*/
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font: 400 15px/1.8 "Lato", sans-serif;
+    color: #777;
+}
+
+.container {
+    max-width: 1200px;
+    align-content: center;
+    text-align: center;
+}
+
+.bg-img-1, .bg-img-2, .bg-img-3, .bg-img-4 {
+    position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-img-1 {
+    background-image: url("/images/Code\ snippet.png");
+    min-height: 100%;
+}
+
+.bg-img-2 {
+    background-image: url("/images/Responsive\ website\ pic.png");
+    min-height: 70%;
+}
+
+.bg-img-3 {
+    background-image: url("/images/sketch2.jpg");
+    min-height: 400px;
+}
+
+.bg-img-3 {
+    background-image: url("/images/Responsive\ website\ pic.png");
+    min-height: 400px;
+}
+
+.caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+.caption span.border {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+
+li {
+    list-style-type: none;
+}
