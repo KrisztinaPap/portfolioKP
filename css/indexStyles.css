@@ -11,6 +11,9 @@ h1, h2, h3, body {
     text-align: center;
     font-family: 'Ubuntu', sans-serif;
 }
+h1, h2, h3 {
+    text-transform: uppercase;
+}
 
 .container {
     max-width: 1200px;
@@ -48,6 +51,7 @@ h1, h2, h3, body {
     width: 100%;
     text-align: center;
     color: #000;
+    text-transform: uppercase;
 }
 
 .caption span.border {
@@ -82,7 +86,7 @@ h1, h2, h3, body {
 
 li {
     list-style-type: none;
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 li a {
  
