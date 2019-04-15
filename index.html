@@ -16,71 +16,105 @@
 
 <body>
 	<div class="bg-img-1">
-		<div class="caption">
-            <span class="border" style="background-color: white; color: black;">Krisztina Pap || My Portfolio</span>
-            <div class="container d-flex flex-column flex-md-row justify-content-around pt-3 pb-3">
-                <div class="col">
+		<div>
+            <div class="intro text-light" style="background-color: rgb(33, 34, 34)">
+                <h1 id="title" class="pt-2" style="color: #ffc107">Krisztina Pap || My Portfolio</h1>
+                <h2 id="subtitle">Welcome to my online front-end web developer portfolio!</h2>
+                <span class="pb-2" style="text-transform: lowercase;">(Hover over thumbnails and <i class="fas fa-info-circle"></i>icons for additional information. project links open in blank browser windows for your convenience)</span>
+            </div>
+            
+               
+            <div class="container d-flex flex-column flex-lg-row flex-wrap justify-content-around">
+                
+                <div class="col-md-6">
                     <div class="image-container">
                         <a href="/classic.html" target="_blank">
                         <img src="/images/classic.PNG" class="img-thumbnail w-85" alt="Thumbnail of classic website" target="_blank"></br>
                     
                         <div class="overlay">
                             <div class="hover-text">Classic Design (full-width):
-                            <br/>HTML5, CSS3, and Bootstrap
-                            <br/>(CSS Grid, Flexbox, navbar, carousel, scrollspy, collapse, form (front-end), fully-responsive) </div>
+                            <br/><small>HTML5, CSS3 and Bootstrap</small>
+                            </div>
                         </div>
                     </div></a>
-<!--                     <button type="button" class="btn btn-warning btn-lg image"><a href="/classic.html">Classic</a></button>  -->
+                   
                 </div>
-                <div class="col">
+                <div class="col-md-6">
                     <div class="image-container">
                         <a href="/modern.html" target="_blank">
                         <img src="/images/modern.PNG" class="img-thumbnail w-85" alt="Thumbnail of modern website" target="_blank"></br>
                         <div class="overlay">
                             <div class="hover-text">Modern Design (full-width):
-                                <br/>HTML5, CSS3, and Bootstrap
-                                <br/>(fixed background, fully-responsive...) 
+                                <br/><small>HTML5, CSS3, and Bootstrap</small>
                             </div>
                         </div>
                     </div></a>
-<!--                 <button type="button" class="btn btn-warning btn-lg image"><a href="/modern.html">Modern</a></button> -->  
+
+                </div>          
+          
+                
+                    <div class="col-md-6">
+                        <div class="image-container">
+                            <a href="/classic.html" target="_blank">
+                            <img src="/images/classic.PNG" class="img-thumbnail w-85" alt="Thumbnail of classic website" target="_blank"></br>
+                        
+                            <div class="overlay">
+                                <div class="hover-text">Classic Design (full-width):
+                                <br/><small>HTML5, CSS3 and Bootstrap</small>
+                                </div>
+                            </div>
+                        </div></a>
+    
+                    </div>
+                    <div class="col-md-6">
+                        <div class="image-container">
+                            <a href="/modern.html" target="_blank">
+                            <img src="/images/modern.PNG" class="img-thumbnail w-85" alt="Thumbnail of modern website" target="_blank"></br>
+                            <div class="overlay">
+                                <div class="hover-text">Modern Design (full-width):
+                                    <br/><small>HTML5, CSS3, and Bootstrap</small>
+                                </div>
+                            </div>
+                        </div></a>
+    
+                    </div>
                 </div>
-			</div>
+
 		</div>
 	</div>
 
  
                
     </div>
-    <div class="text-light position-fixed fixed-bottom" style="background-color: rgb(33, 34, 34)">         
-        <div class="container d-flex flex-column flex-md-row justify-content-around pt-1 pb-3" style="text-align:center";>
+    <div id="footer" class="text-light" style="background-color: rgb(33, 34, 34)">         
+      
             <article class="pb-1" id="contact">  
-                    <hr class="bg-light">
-                    <h2 class="text-white" style="text-shadow: 3px 3px #f0ad4e;">I have 5+ years successful remote working experience!</h2> 
-                    <hr class="bg-light">
-                    <div class="d-flex flex-md-row">
-                        <div> 
-                            <div class="col p-6 align-self-center">
-                                <button id="download" type="button"><a href="images/KP-CV-v3.pdf" download class="btn btn-lg btn-warning text-white">Download CV</a></button><br/> 
-                            </div>
-                        </div> 
-                        <div class="col p-6 align-self-center">
+                  
+                    <h2 class="text-white pt-2" style="font-size: 1.5em">5+ years of successful remote working experience!</h2> 
+                 
+                    <div class="d-flex flex-column flex-md-row">
+                        
+                        <div class="col-4 flex-fill align-self-center">
+                            <button id="download" type="button"><a href="images/KP-CV-v3.pdf" download class="btn btn-lg btn-warning text-white download">Download CV</a></button><br/> 
+                        </div>
+                         
+                        <div class="col-8 flex-fill align-self-center">
                             <h2 class="pt-1"><small style="text-transform: none;">I'd love to hear from you!</small></h2>
                                 
-                            <div class="d-flex flex-row justify-content-around">  
-                                <div class="p-3"><a href="mailto: [krisztina.pap@outlook.com]?subject= &body= " class="text-warning"><i class="far fa-envelope fa-1x"></i>Email me!</a></div>
+                            <div class="d-flex flex-column flex-md-row justify-content-around">  
+                                <div class="p-1 d-block"><a href="mailto: [krisztina.pap@outlook.com]?subject= &body= " class="text-warning"><i class="far fa-envelope fa-1x"></i>Email me!</a></div>
 
-                                <div class="p-3"><a href="https://github.com/KrisztinaPap" target="_blank" class="text-warning">Visit my GitHub</a></div>
+                                <div class="p-1 d-block"><a href="https://github.com/KrisztinaPap" target="_blank" class="text-warning">Visit my GitHub</a></div>
 
-                                <div class="p-3"><a href="https://www.linkedin.com/in/krisztina-pap-415a3b2b/" target="_blank" class="text-warning">Visit me on LinkedIn</a></div>
+                                <div class="p-1 d-block"><a href="https://www.linkedin.com/in/krisztina-pap-415a3b2b/" target="_blank" class="text-warning">Visit me on LinkedIn</a></div>
                             </div>
                         </div>
-                </div>
+                    </div>
                        
                         <small class="text-white-50 text-muted">Copyright &copy Krisztina Pap, 2019</small>
                     
             </article>
-        </div>
+       
     </div>      
 	
 
