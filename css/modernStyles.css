@@ -3,7 +3,7 @@
 body, html {
     height: 100%;
     margin: 0;
-    font: 400 15px/1.8 "Lato", sans-serif;
+    font: 400 18px/1.8 "Lato", sans-serif;
     color: #777;
 }
 
@@ -13,7 +13,7 @@ body, html {
     text-align: center;
 }
 
-.bg-img-1, .bg-img-2, .bg-img-3, .bg-img-4 {
+.bg-img-1, .bg-img-2, .bg-img-3 {
     position: relative;
     opacity: 0.65;
     background-attachment: fixed;
@@ -29,23 +29,18 @@ body, html {
 
 .bg-img-2 {
     background-image: url("/images/Responsive\ website\ pic.png");
-    min-height: 40%;
+    min-height: 35%;
 }
 
 .bg-img-3 {
     background-image: url("/images/sketch2.jpg");
-    min-height: 400px;
-}
-
-.bg-img-3 {
-    background-image: url("/images/Code\ snippet.png");
-    min-height: 400px;
+    min-height: 35%;
 }
 
 .caption {
     position: absolute;
     left: 0;
-    top: 50%;
+    top: 40%;
     width: 100%;
     text-align: center;
     color: #000;
@@ -66,3 +61,20 @@ li {
     border: none;
     background: none;
 }
+
+/* Style tab links */
+.tablink {  
+    float: left;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  
+  
+  /* Style the tab content (and add height:100% for full page content) */
+  .tabcontent {
+    color: #111;
+    display: none;
+    padding: 50px 20px;
+    height: 80%;
+  }

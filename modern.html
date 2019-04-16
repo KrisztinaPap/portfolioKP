@@ -26,92 +26,113 @@
 
 	<div class="bg-img-2">
 		<div class="caption">
-			<span class="border">Skills</span>
+			<span class="border">Quick Facts</span>
 		</div>
 	</div>
 
-	<div class="container" style="color: #777; background-color: white; text-align:center; padding: 50px 80px">
 
+
+<div class="container mt-3 pt-3" style="color: #777; background-color: white; text-align:center;">       
+			<h2 style="text-transform: uppercase">My strengths as a web developer</h2>
+				<ul class="pt-2">
+					<li>HTML5</li>
+					<li>CSS3</li>
+					<li>Bootstrap</li>
+				</ul>
+
+				
+			<h2 class="pt-1" style="text-transform: uppercase">I enjoy collaboration via</h2>
+				<ul class="pt-2">
+					<li>Git/GitHub</li>
+					<li>Discord</li>
+					<li>Slack</li>
+					<li>Zoom</li>
+					<li>Google Docs</li>
+				</ul>
+
+			
+			
+</div>
+<div class="bg-img-3">
+	<div class="caption">
+		<span class="border">Skills</span>
+	</div>
+</div>
+
+<div class="container" style="color: #777; background-color: white; text-align:center; padding: 50px 80px">
+	<hr>
+	<h2 class="mt-2 text-secondary">I have 5+ years successful remote working experience!<br/><small>Click a button to find out more!</small></h2>
 		
-			<div class="d-flex flex-column flex-md-row justify-content-around pt-3 pb-3">
-				<button type="button" class="btn btn-outline-info btn-lg">Web Development</button>
-				<button type="button" class="btn btn-outline-danger btn-lg">User Experience</button>
-				<button type="button" class="btn btn-outline-warning btn-lg">Graphic Design</button>
-				<button type="button" class="btn btn-outline-success btn-lg">Collaboration</button>
-				<button type="button" class="btn btn-outline-primary btn-lg">Instructional Design</button>
-			</div>
-
-		<h3>Web Development</h3> 
-			<ul>
-				<li>HTML</li>
-				<li>CSS</li>
-				<li>JavaScript</li>
-				<li>Bootstrap</li>
-				<li>Responsive Design</li>
-				<li>WordPress</li>
-				<li>Atom/DreamWeaver</li>
-				<li>Git/GitHub</li>
-			</ul>
-		<h3>User Experience (UX)/User Interface (UI) Design</h3>
-			<ul>
-				<li>User Research and Testing</li>
-				<li>Information Architecture</li>
-				<li>Prototyping and Wireframing</li>
-				<li>Accessibility/Usability</li>
-				<li>Adobe XD</li>
-				<li>Sketch</li>
-			</ul>
-		<h3>Graphic Design</h3>
-			<ul>
-				<li>Webpages: Layout, Color, and Typography</li>
-				<li>Social Media Banners, Posts, and Thumbnails</li>
-				<li>Adobe Spark Post</li>
-			</ul>
-		<h3>Collaboration</h3>
-			<ul>
-				<li>Git/GitHub</li>
-				<li>Discord</li>
-				<li>Skype</li>
-				<li>Zoom</li>
-				<li>Slack</li>
-				<li>5 + years of successful remote work experience!</li>
-			</ul>
-		<h3>Instructional Design & Educational/Training Background</h3>
-			<ul>
-				<li>Adobe Captivate</li>
-				<li>Articulate Storyline</li>
-				<li>Moodle</li>
-				<li>Attention to detail (“Professional Pride”)</li>
-				<li>Able to present complex concepts/content in an organized and clear manner</li>
-				<li>User-focused mindset</li>
-			</ul>
-					
+	<div class="d-flex flex-column flex-md-row justify-content-around pt-1 pb-1">
+		<button type="button" class="tablink btn btn-outline-info btn-lg" onclick="openPage('web-development', this)">Web Development</button>
+		<button type="button" class="tablink btn btn-outline-danger btn-lg" onclick="openPage('user-experience', this)">User Experience</button>
+		<button type="button" class="tablink btn btn-outline-warning btn-lg" onclick="openPage('graphic-design', this)">Graphic Design</button>
+		<button type="button" class="tablink btn btn-outline-success btn-lg" onclick="openPage('collaboration', this)">Collaboration</button>
+		<button type="button" class="tablink btn btn-outline-primary btn-lg" onclick="openPage('instructional-design', this)">Instructional Design</button>
 	</div>
-	<div class="bg-img-3">
-			<div class="caption">
-				<span class="border">Quick Facts</span>
-			</div>
+		<div id="web-development" class="tabcontent">
+			<h3>Web Development</h3> 
+				<ul>
+					<li>HTML</li>
+					<li>CSS</li>
+					<li>JavaScript</li>
+					<li>Bootstrap</li>
+					<li>Responsive Design</li>
+					<li>WordPress</li>
+					<li>Atom/DreamWeaver</li>
+					<li>Git/GitHub</li>
+				</ul>
 		</div>
-	
 
-  
-    <div class="container mt-3 pt-4 pb-3" style="color: #777; background-color: white; text-align:center;">       
-                <h2 style="text-decoration: underline">My strengths as a web developer</h2>
-                    <ul class="pt-2">
-                        <li>HTML5</li>
-                        <li>CSS3</li>
-                        <li>Bootstrap</li>
-                    </ul>
-                <h2 class="pt-1" style="text-decoration: underline">I enjoy collaboration via</h2>
-                    <ul class="pt-2">
-                        <li>Git/GitHub</li>
-                        <li>Discord</li>
-                        <li>Slack</li>
-                        <li>Zoom</li>
-                        <li>Google Docs</li>
-                    </ul>
-                <h2 class="pt-3 pb-3 text-secondary" style="text-shadow: 3px 3px #f0ad4e;">I have 5+ years successful remote working experience!</h2>
-    </div>
+		<div id="user-experience" class="tabcontent">
+			<h3>User Experience (UX)/User Interface (UI) Design</h3>
+				<ul>
+					<li>User Research and Testing</li>
+					<li>Information Architecture</li>
+					<li>Prototyping and Wireframing</li>
+					<li>Accessibility/Usability</li>
+					<li>Adobe XD</li>
+					<li>Sketch</li>
+				</ul>
+		</div>
+
+		<div id="graphic-design" class="tabcontent">
+			<h3>Graphic Design</h3>
+				<ul>
+					<li>Webpages: Layout, Color, and Typography</li>
+					<li>Social Media Banners, Posts, and Thumbnails</li>
+					<li>Adobe Spark Post</li>
+				</ul>
+		</div>
+
+		<div id="collaboration" class="tabcontent">
+			<h3>Collaboration</h3>
+				<ul>
+					<li>Git/GitHub</li>
+					<li>Discord</li>
+					<li>Skype</li>
+					<li>Zoom</li>
+					<li>Slack</li>
+				</ul>
+
+		</div>
+
+		<div id="instructional-design" class="tabcontent">
+			<h3>Instructional Design & Educational/Training Background</h3>
+				<ul>
+					<li>Adobe Captivate</li>
+					<li>Articulate Storyline</li>
+					<li>Moodle</li>
+					<li>Attention to detail (“Professional Pride”)</li>
+					<li>Able to present complex concepts/content in an organized and clear manner</li>
+					<li>User-focused mindset</li>
+				</ul>
+		</div>
+			
+	</div>
+
+
+
     <div class="bg-secondary text-light">         
         <div class="container d-flex flex-column flex-md-row justify-content-around pt-4 pb-4" style="text-align:center";>
             <article id="contact">      
