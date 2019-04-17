@@ -1,0 +1,168 @@
+/*-----------------------------------------------*\
+Index
+- Color palette
+- Typography
+- Buttons
+- Layout
+- Background image
+- Thumbnails
+- Thumbnail overlays
+- Media queries
+\*-----------------------------------------------*/
+
+/*-------Color palette--------*\
+orange: #FFCC00
+dark grey: #333333
+black: #000000
+white: #FFFFFF
+\*-----------------------------------------------*/
+
+/*-------Typography ---------------------*/
+
+body, html {
+    font-family: 'Lato', serif;
+}
+
+h1, h2, h3, body {
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+/*-------Buttons -----------------------*/
+
+.btn {
+    margin-top: 1em;
+}
+
+.btn a {
+    text-decoration: none;
+    color: #333333;
+}
+
+.download:hover, .download:focus {
+    background-color: #000000;
+    color: #FFCC00;
+}
+
+#download {
+    border: none;
+    background: none;
+}
+
+/*-------Layout -------------------------*/
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+i {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.container {
+    max-width: 1200px;
+    align-content: center;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.col {
+    position: relative;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+#header {
+    background-color: #FFCC00;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-bottom: solid #FFCC00 3px;
+}
+
+/*-------Background image -------------------------*/
+
+.bg-img-1 {
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("/images/mycode.png");
+    min-height: 100%;
+}
+
+/*-------Thumbnails -----------------------*/
+
+.image-container {
+    position: relative;
+    margin-top: 1.5em;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/*-------Thumbnail overlays -----------------------*/
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #333333;
+}
+
+.image-container:hover .overlay {
+    opacity: 1;
+    border: solid 5px #FFCC00;
+}
+
+.hover-text {
+    color: #FFFFFF;
+    font-size: 1.5em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/*-------Media queries -----------------------*/
+
+  @media only screen and (min-width: 600px) {
+      #footer {
+        position: flex;
+        flex-wrap: wrap;
+        padding-top: 1em; 
+        padding-right: 20%;
+        padding-left: 20%;
+        padding-bottom: 4em;
+        width: 100%;
+        border-top: solid #FFCC00 3px;
+      }
+
+      #intro {
+        position: flex;
+        flex-wrap: wrap;
+        padding: 1em 3em;
+        width: 100%;
+      }
+  }
+ 
+  

@@ -4,89 +4,87 @@
 <!-- // Document Head ---------------------------->
 <head>
 	<meta charset="utf-8">
-	<title>Krisztina Pap | My Portfolio</title>
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/indexStyles.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Ubuntu" rel="stylesheet">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Krisztina Pap | My Portfolio</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!----------- style sheets -------------------------->    
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index-styles.css">
+
+    <!----------- Google Fonts style sheets ------------->    
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Ubuntu" rel="stylesheet">
+
+    <!----------- Font Awesome icon --------------------->  
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
 </head>
 
 
 <body>
 	<div class="bg-img-1">
-		<div>
-            <div class="intro text-light" style="background-color: rgb(33, 34, 34)">
-                <h1 id="title" class="pt-2" style="color: #ffc107">Krisztina Pap || My Portfolio</h1>
+		
+            <div id="header" role="banner" class="text-light" style="background-color: #333333">
+                <h1 id="title" class="pt-2" style="color: #FFCC00">Krisztina Pap || My Portfolio</h1>
                 <h2 id="subtitle">Welcome to my online front-end web developer portfolio!</h2>
                 <span class="pb-2" style="text-transform: lowercase;">(Hover over thumbnails and <i class="fas fa-info-circle"></i>icons for additional information. project links open in blank browser windows for your convenience)</span>
-            </div>
+            </div><!-- #header -->
             
                
-            <div class="container d-flex flex-column flex-lg-row flex-wrap justify-content-around">
+            <div class="container d-flex flex-column flex-lg-row flex-wrap justify-content-around" role="main" role="navigation">
                 
                 <div class="col-md-6">
-                    <div class="image-container">
-                        <a href="/classic.html" target="_blank">
-                        <img src="/images/classic.PNG" class="img-thumbnail w-85" alt="Thumbnail of classic website" target="_blank"></br>
-                    
-                        <div class="overlay">
-                            <div class="hover-text">Classic Design (full-width):
-                            <br/><small>HTML5, CSS3 and Bootstrap</small>
-                            </div>
-                        </div>
-                    </div></a>
-                   
-                </div>
-                <div class="col-md-6">
-                    <div class="image-container">
-                        <a href="/modern.html" target="_blank">
-                        <img src="/images/modern.PNG" class="img-thumbnail w-85" alt="Thumbnail of modern website" target="_blank"></br>
-                        <div class="overlay">
-                            <div class="hover-text">Modern Design (full-width):
-                                <br/><small>HTML5, CSS3, and Bootstrap</small>
-                            </div>
-                        </div>
-                    </div></a>
-
-                </div>          
-          
-                
-                    <div class="col-md-6">
-                        <div class="image-container">
-                            <a href="/classic.html" target="_blank">
-                            <img src="/images/classic.PNG" class="img-thumbnail w-85" alt="Thumbnail of classic website" target="_blank"></br>
-                        
+                    <div class="image-container" role="img">
+                        <a href="/classic.html" target="_blank" role="button" role="link">
+                        <img src="/images/classic.PNG" class="img-thumbnail w-85" alt="Thumbnail of classic website" target="_blank"></br><!-- first thumbnail image -->                  
                             <div class="overlay">
                                 <div class="hover-text">Classic Design (full-width):
-                                <br/><small>HTML5, CSS3 and Bootstrap</small>
-                                </div>
-                            </div>
-                        </div></a>
-    
-                    </div>
-                    <div class="col-md-6">
-                        <div class="image-container">
-                            <a href="/modern.html" target="_blank">
-                            <img src="/images/modern.PNG" class="img-thumbnail w-85" alt="Thumbnail of modern website" target="_blank"></br>
+                                    <br/><small>HTML5, CSS3 and Bootstrap</small>
+                                </div><!-- .hover-text / first overlay text -->
+                            </div><!-- .overlay / first thumbnail overlay -->
+                    </div></a><!-- .image-container / first thumbnail container (image + overlay) -->   
+                </div><!-- .col-md-6 / first grid column -->
+
+                <div class="col-md-6">
+                    <div class="image-container" role="img">
+                        <a href="/modern.html" target="_blank" role="button" role="link">
+                        <img src="/images/modern.PNG" class="img-thumbnail w-85" alt="Thumbnail of modern website" target="_blank"></br><!-- second thumbnail image -->
                             <div class="overlay">
                                 <div class="hover-text">Modern Design (full-width):
                                     <br/><small>HTML5, CSS3, and Bootstrap</small>
-                                </div>
-                            </div>
-                        </div></a>
-    
-                    </div>
-                </div>
+                                </div><!-- .hover-text / second overlay text -->
+                            </div><!-- .overlay / second thumbnail overlay -->
+                    </div></a><!-- .image-container / second thumbnail container (image + overlay) -->
+                </div><!-- .col-md-6 / second grid column -->          
+                        
+                <div class="col-md-6">
+                    <div class="image-container" role="img">
+                        <a href="/classic.html" target="_blank" role="button" role="link">
+                        <img src="/images/classic.PNG" class="img-thumbnail w-85" alt="Thumbnail of classic website" target="_blank"></br><!-- third thumbnail image -->                  
+                            <div class="overlay">
+                                <div class="hover-text">Classic Design (full-width):
+                                    <br/><small>HTML5, CSS3 and Bootstrap</small>
+                                </div><!-- .hover-text / third overlay text -->
+                            </div><!-- .overlay / third thumbnail overlay -->
+                    </div></a><!-- .image-container / third thumbnail container (image + overlay) -->
+                </div><!-- .col-md-6 / third grid column -->
 
-		</div>
-	</div>
+                    <div class="col-md-6">
+                        <div class="image-container" role="img">
+                            <a href="/modern.html" target="_blank" role="button" role="link">
+                            <img src="/images/modern.PNG" class="img-thumbnail w-85" alt="Thumbnail of modern website" target="_blank"></br><!-- fourth thumbnail image -->
+                                <div class="overlay">
+                                    <div class="hover-text">Modern Design (full-width):
+                                        <br/><small>HTML5, CSS3, and Bootstrap</small>
+                                    </div><!-- .hover-text / fourth overlay text -->
+                                </div><!-- .overlay / fourth thumbnail overlay -->
+                        </div></a><!-- .image-container / fourth thumbnail container (image + overlay) -->    
+                    </div><!-- .col-md-6 / fourth grid column -->
 
- 
+            </div><!-- flex container for thumbnail grid -->	
+	</div><!-- .bg-img-1 container to hold background and thumbnails -->
                
-    </div>
-    <div id="footer" class="text-light" style="background-color: rgb(33, 34, 34)">         
+    <div id="footer" class="text-light" style="background-color: #333333">         
       
             <article class="pb-1" id="contact">  
                   
@@ -95,27 +93,27 @@
                     <div class="d-flex flex-column flex-md-row">
                         
                         <div class="col-4 flex-fill align-self-center">
-                            <button id="download" type="button"><a href="images/KP-CV-v3.pdf" download class="btn btn-lg btn-warning text-white download">Download CV</a></button><br/> 
-                        </div>
+                            <button id="download" type="button" role="button"><a href="images/KP-CV-v3.pdf" download class="btn btn-lg btn-warning text-white download">Download CV</a></button><br/> 
+                        </div><!-- first grid column in footer -->
                          
                         <div class="col-8 flex-fill align-self-center">
                             <h2 class="pt-1"><small style="text-transform: none;">I'd love to hear from you!</small></h2>
                                 
                             <div class="d-flex flex-column flex-md-row justify-content-around">  
-                                <div class="p-1 d-block"><a href="mailto: [krisztina.pap@outlook.com]?subject= &body= " class="text-warning"><i class="far fa-envelope fa-1x"></i>Email me!</a></div>
+                                <div class="p-1 d-block"><a href="mailto: [krisztina.pap@outlook.com]?subject= &body= " class="text-warning" role="link"><i class="far fa-envelope fa-1x"></i>Email me!</a></div>
 
-                                <div class="p-1 d-block"><a href="https://github.com/KrisztinaPap" target="_blank" class="text-warning">Visit my GitHub</a></div>
+                                <div class="p-1 d-block"><a href="https://github.com/KrisztinaPap" target="_blank" class="text-warning" role="link">Visit my GitHub</a></div>
 
-                                <div class="p-1 d-block"><a href="https://www.linkedin.com/in/krisztina-pap-415a3b2b/" target="_blank" class="text-warning">Visit me on LinkedIn</a></div>
-                            </div>
-                        </div>
-                    </div>
+                                <div class="p-1 d-block"><a href="https://www.linkedin.com/in/krisztina-pap-415a3b2b/" target="_blank" class="text-warning" role="link">Visit me on LinkedIn</a></div>
+                            </div><!-- flex container for email, GitHub and LinkedIn links -->
+                        </div><!-- second grid column in footer -->
+                    </div><!-- container for grid columns in footer -->
                        
                         <small class="text-white-50 text-muted">Copyright &copy Krisztina Pap, 2019</small>
                     
-            </article>
+            </article><!-- #contact container-->
        
-    </div>      
+    </div><!-- #footer -->      
 	
 
 	<script src="js/script.js" defer></script>
