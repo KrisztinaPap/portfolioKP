@@ -147,21 +147,21 @@
 
 				
 							
-				<div class="container pt-3 pb-4">
+				<div id="skills-part2" class="container pt-3 pb-4">
 					<div class="d-flex flex-column flex-md-row justify-content-around pt-3 pb-3">
 						<button id="download" type="button"><a href="images/KP-CV-v3.pdf" download class="btn btn-lg btn-warning">Download CV</a></button>
-					</div>	
+					</div><!--end of download button container-->	
 					<hr class="bg-light">
 						<h3>Experienced collaborator with 5 + years of remote work experience!</h3>
-							<div class="d-flex flex-column flex-md-row justify-content-around pt-3">
+							<div id="collaboration-buttons" class="d-flex flex-column flex-md-row justify-content-around pt-3">
 								<button type="button" class="btn btn-info btn-lg"><a href="https://github.com/KrisztinaPap" target="_blank">GitHub</a></button>
 								<button type="button" class="btn btn-danger btn-lg"><a href="https://discordapp.com/" target="_blank">Discord</a></button>
 								<button type="button" class="btn btn-warning btn-lg"><a href="https://slack.com/" target="_blank">Slack</a></button>
 								<button type="button" class="btn btn-success btn-lg"><a href="https://zoom.us/" target="_blank">Zoom</a></button>
 								<button type="button" class="btn btn-primary btn-lg"><a href="https://www.skype.com/en/" target="_blank">Skype</a></button>
-							</div>
+							</div><!--#collaboration-buttons -->
 						<hr class="bg-light">
-					</div>
+					</div><!--#skills-part2 -->
 				
 			</section><!--end of skills section-->
 			<p>
@@ -281,7 +281,7 @@
 								<!--Button to visit MacEwan website--------------->
 								<div class="d-flex flex-column flex-md-row justify-content-around pt-3 pb-3">
 									<button id="MacEwan" type="button"><a href="https://www.macewan.ca/wcm/index.htm" class="btn btn-lg btn-warning" target="_blank">Visit MacEwan's Website</a></button>
-								</div>	
+								</div><!--end of container for #MacEwan--------------->	
 
 							</div><!--end of formal education-->
 							<hr class="bg-light">
@@ -363,7 +363,7 @@
 						<!--Button to visit Lynda.com website--------------->
 						<div class="d-flex flex-column flex-md-row justify-content-around pt-3 pb-4">
 								<button id="Lynda" type="button"><a href="https://www.lynda.com/" class="btn btn-lg btn-warning" target="_blank">Visit Lynda.com Website</a></button>
-							</div>
+							</div><!--end of container for #Lynda--------------->
 				</section><!--end of certifications container-->
 
 			
@@ -378,56 +378,54 @@
 						<h2>Frequently Asked Questions</h2>
 					<hr class="bg-dark">
 					
-				<div class="card">
-					<div class="card-header" id="questionOne">
-						<h2 class="mb-0">
-						<button class="accordionquestion btn btn-link" type="button" data-toggle="collapse" data-target="#answerOne" aria-expanded="true" aria-controls="answerOne">
-						What did you use to build this website?
-						</button>
-						</h2>
-					</div>
+					<div class="card" id="cardOne">
+						<div class="card-header" id="questionOne">
+							<h2 class="mb-0">
+							<button class="accordionquestion btn btn-link" type="button" data-toggle="collapse" data-target="#answerOne" aria-expanded="true" aria-controls="answerOne">
+							What did you use to build this website?
+							</button>
+							</h2>
+						</div><!--end of #questionOne--------------->
 
-					<div id="answerOne" class="collapse" aria-labelledby="questionOne" data-parent="#accordionExample">
-						<div class="card-body">
-						I built this website from scratch using HTML5, CSS3, JavaScript, and Bootstrap. I edited in Visual Studio Code and used Git/GitHub for version control. 
-						</div>
-					</div>
-				</div>
+						<div id="answerOne" class="collapse" aria-labelledby="questionOne" data-parent="#accordionExample">
+							<div class="card-body">
+							I built this website from scratch using HTML5, CSS3, JavaScript, and Bootstrap. I edited in Visual Studio Code and used Git/GitHub for version control. 
+							</div>
+						</div><!--end of #AnswerOne--------------->
+					</div><!--end of #cardOne--------------->
 
-				<div class="card">
-					<div class="card-header" id="questionTwo">
-						<h2 class="mb-0">
-						<button class="accordionquestion btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#answerTwo" aria-expanded="false" aria-controls="answerTwo">
-						What's your favorite game?
-						</button>
-						</h2>
-					</div>
+					<div class="card" id="cardTwo">
+						<div class="card-header" id="questionTwo">
+							<h2 class="mb-0">
+							<button class="accordionquestion btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#answerTwo" aria-expanded="false" aria-controls="answerTwo">
+							What's your favorite game?
+							</button>
+							</h2>
+						</div><!--end of #questionTwo--------------->
 
-					<div id="answerTwo" class="collapse" aria-labelledby="questionTwo" data-parent="#accordionExample">
-						<div class="card-body">
-						I used to really enjoy World of Warcraft! I don't play much anymore but I still miss it some days...
-						</div>
-					</div>
-				</div>
+						<div id="answerTwo" class="collapse" aria-labelledby="questionTwo" data-parent="#accordionExample">
+							<div class="card-body">
+							I used to really enjoy World of Warcraft! I don't play much anymore but I still miss it some days...
+							</div>
+						</div><!--end of #AnswerTwo--------------->
+					</div><!--end of #cardTwo--------------->
 
-				<div class="card">
-					<div class="card-header" id="questionThree">
-						<h2 class="mb-0">
-						<button class="accordionquestion btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#answerThree" aria-expanded="false" aria-controls="answerThree">
-						Do you have any hobbies?
-						</button>
-						</h2>
-					</div>
+					<div class="card" id="cardThree">
+						<div class="card-header" id="questionThree">
+							<h2 class="mb-0">
+							<button class="accordionquestion btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#answerThree" aria-expanded="false" aria-controls="answerThree">
+							Do you have any hobbies?
+							</button>
+							</h2>
+						</div><!--end of #questionThree--------------->
 
-					<div id="answerThree" class="collapse" aria-labelledby="questionThree" data-parent="#accordionExample">
-						<div class="card-body">
-						I have many hobbies! I love reading, hiking, and learning new things! Whether it's a new computer language or a different way to cook eggs, I'm in!
-						</div>
-					</div>
-				</div>
-				</div>
-			</div>
-			</div>
+						<div id="answerThree" class="collapse" aria-labelledby="questionThree" data-parent="#accordionExample">
+							<div class="card-body">
+							I have many hobbies! I love reading, hiking, and learning new things! Whether it's a new computer language or a different way to cook eggs, I'm in!
+							</div>
+						</div><!--end of #AnswerThree--------------->
+					</div><!--end of #cardThree--------------->
+				</div><!--end of #accordionExample--------------->
 			<br>
 			</section><!--end of faqs section-->
 
@@ -474,7 +472,7 @@
 							</fieldset>
 							<div class="d-flex flex-column flex-md-row justify-content-around pt-3 pb-4">
 								<button class="btn btn-success btn-lg mb-3" type="submit">Submit</button>
-							</div>
+							</div><!--container for submit button-->
 						</form>
 
 				</div><!--container-->

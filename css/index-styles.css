@@ -32,6 +32,11 @@ h1 {
     text-transform: uppercase;
 }
 
+#title {
+    color: #FFCC00;
+}
+
+
 /*-------Buttons -----------------------*/
 
 .btn {

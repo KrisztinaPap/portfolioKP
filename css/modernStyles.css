@@ -1,10 +1,77 @@
-/*-------Global styles--------*/
+/*-----------------------------------------------*\
+Index
+- Color palette
+- Typography
+- Layout
+    - Tabs
+    - Tab content
+    - Background images
+- Buttons
+\*-----------------------------------------------*/
+
+/*-------Color palette--------*\
+black: #000000
+white: #FFFFFF
+light brown: #666666
+orange: #FFCC00
+\*-----------------------------------------------*/
+
+/*-----------------------------------------------*\
+font-family: 'Jura', sans-serif;
+font-family: 'Arsenal', sans-serif;
+\*-----------------------------------------------*/
+
+/*-------Typography ---------------------*/
+
+h1, h2, h3, h4 {
+    font-family: 'Jura', sans-serif;
+    font-weight: 700;
+}
+
+h1, h2, h3 {
+    text-transform: uppercase;
+    padding-bottom: 0.2em;
+    padding-top: 0.2em;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.8em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+body, html, .tabcontent {
+    font-family: 'Arsenal', sans-serif;
+    font-size: 1.2em;
+    color: #666666;
+}
+
+.caption {
+    text-align: center;
+    color: #000000;
+}
+
+.caption span.border {
+    color: #FFFFFF;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+
+li {
+    list-style-type: none;
+}
+
+/*--------Layout ------------*/
 
 body, html {
     height: 100%;
     margin: 0;
-    font: 400 18px/1.8 "Lato", sans-serif;
-    color: #777;
 }
 
 .container {
@@ -12,6 +79,25 @@ body, html {
     align-content: center;
     text-align: center;
 }
+
+        /*--------Tabs ------------*/
+
+.tablink {  
+    float: left;
+    outline: none;
+    cursor: pointer;
+  }
+ 
+        /*--------Tabs (tab content)------------*/
+
+.tabcontent {
+    display: none;
+    padding: 50px 20px;
+    min-height: 80%;
+    border: solid 2px #FFCC00;
+}
+
+        /*--------Background images ------------*/
 
 .bg-img-1, .bg-img-2, .bg-img-3 {
     position: relative;
@@ -29,52 +115,35 @@ body, html {
 
 .bg-img-2 {
     background-image: url("/images/Responsive\ website\ pic.png");
-    min-height: 35%;
+    min-height: 50%;
 }
 
 .bg-img-3 {
     background-image: url("/images/sketch2.jpg");
-    min-height: 35%;
+    min-height: 50%;
 }
 
 .caption {
+    display: inline-block;
     position: absolute;
-    left: 0;
-    top: 40%;
-    width: 100%;
     text-align: center;
-    color: #000;
+    top: 50%;
+    width: 100%;
 }
 
 .caption span.border {
-    background-color: #111;
-    color: #fff;
+    background-color: #000000;
     padding: 18px;
-    font-size: 25px;
-    letter-spacing: 10px;
 }
 
-li {
-    list-style-type: none;
-}
+/*--------Buttons ------------*/
+
 #download {
     border: none;
     background: none;
 }
 
-/* Style tab links */
-.tablink {  
-    float: left;
-    outline: none;
-    cursor: pointer;
-  }
-  
-  
-  
-  /* Style the tab content (and add height:100% for full page content) */
-  .tabcontent {
-    color: #111;
-    display: none;
-    padding: 50px 20px;
-    height: 80%;
-  }
+.download:hover, .download:focus, .tablink:active, .tablink:focus {
+    background-color: #000000;
+    color: #FFCC00;
+}

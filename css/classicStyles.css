@@ -1,11 +1,41 @@
+/*-----------------------------------------------*\
+Index
+- Color palette
+- Typography
+    - FAQs (accordion)
+- Layout
+    - Testimonials
+    - Contact
+    - Footer
+    - Profile image
+- Buttons
+    - External link and download buttons
+    - Footer nav hover and focus
+- Media queries
+\*-----------------------------------------------*/
 
+/*-------Color palette--------*\
+black: #000000
+white: #FFFFFF
+\*-----------------------------------------------*/
 
-/*-------Global styles--------*/
+/*-------Typography ---------------------*/
 
-    h1, h2, h3, h4 {
+h1, h2, h3, h4 {
     font-family: Merienda, sans-serif;
     font-weight: 700;
 }
+
+        /*---------FAQs (accordion)-----*/
+
+.accordionquestion {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-style: none;
+    font-weight: 500;
+    color: #000000;
+}
+
+/*--------Layout ------------*/
 
 h2, h3, h4 {
     text-align: center;
@@ -16,48 +46,21 @@ h3, h4 {
     margin-bottom: 1em;
 }
 
-/*--------Profile image------------*/
-
-#profile-img {
-    max-height: 400px;
-    align-content: center;
-    vertical-align: center;
-}
-
-/*--------Buttons------------*/
-
-.btn a {
-    text-decoration: none;
-    color: black;
-}
-
-/*--------External link and download buttons------------*/
-
-#download, #MyLinkedIn, #MacEwan, #Lynda {
-    border: none;
-    background: none;
-}
-
-/*--------Testimonials------------*/
+        /*--------Testimonials------------*/
 
 .blockquote {
     margin-top: 2em;
     margin-bottom: 2em;
 }
-/*---------FAQs (accordion)-----*/
 
-.accordionquestion {
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-    font-style: none;
-    font-weight: 500;
-    color: black;
-}
+        /*--------Contact------------*/
+
 #contact {
     width: 50%;
 }
 
 
-/*--------Footer------------*/
+        /*--------Footer------------*/
 
 #footer {
 
@@ -69,8 +72,33 @@ h3, h4 {
     padding-bottom: 3em;
     width: 100%;
 }
+
+        /*--------Profile image------------*/
+
+#profile-img {
+    max-height: 400px;
+    align-content: center;
+    vertical-align: center;
+}
+
+/*--------Buttons------------*/
+
+.btn a {
+    text-decoration: none;
+    color: #000000;
+}
+
+        /*--------External link and download buttons------------*/
+
+#download, #MyLinkedIn, #MacEwan, #Lynda {
+    border: none;
+    background: none;
+}
+
+        /*--------Footer nav hover and focus------------*/
+
 .nav-item-footer:hover, .nav-item-footer:focus {
-        color: white;
+        color: #FFFFFF;
         text-decoration: underline;
        
 }
