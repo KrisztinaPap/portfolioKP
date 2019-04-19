@@ -1,87 +1,47 @@
-
-
-/*-------Global styles--------*/
-
-    h1, h2, h3, h4 {
-    font-family: Merienda, sans-serif;
-    font-weight: 700;
+* {
+    box-sizing: border-box;
 }
 
-h2, h3, h4 {
-    text-align: center;
+.menu {
+    float: left;
+    width: 20%;
 }
 
-h3, h4 {
-    margin-top: 1em;
-    margin-bottom: 1em;
+.menuitem {
+    padding: 8px;
+    margin-top: 7px;
+    border-bottom: 1px solid #f1f1f1;
 }
 
-/*--------Profile image------------*/
-
-#profile-img {
-    max-height: 400px;
-    align-content: center;
-    vertical-align: center;
+.main {
+    float: left;
+    width: 60%;
+    padding: 0 20px;
+    overflow: hidden;
 }
 
-/*--------Buttons------------*/
-
-.btn a {
-    text-decoration: none;
-    color: black;
+.right {
+    background-color: lightblue;
+    float: left;
+    width: 20%;
+    padding: 10px 15px;
+    margin-top: 7px;
 }
 
-/*--------External link and download buttons------------*/
-
-#download, #MyLinkedIn, #MacEwan, #Lynda {
-    border: none;
-    background: none;
-}
-
-/*--------Testimonials------------*/
-
-.blockquote {
-    margin-top: 2em;
-    margin-bottom: 2em;
-}
-/*---------FAQs (accordion)-----*/
-
-.accordionquestion {
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-    font-style: none;
-    font-weight: 500;
-    color: black;
-}
-#contact {
-    width: 50%;
-}
-
-
-/*--------Footer------------*/
-
-#footer {
-
-    position: flex;
-    flex-wrap: wrap;
-    padding-top: 1em; 
-    padding-right: 15%;
-    padding-left: 15%;
-    padding-bottom: 3em;
-    width: 100%;
-}
-.nav-item-footer:hover, .nav-item-footer:focus {
-        color: white;
-        text-decoration: underline;
-       
-}
-
-/*--------Media queries------------*/
-
-@media screen and (max-width: 959px) {
-    h1, h2, h3 {
-        text-align: center;
+@media only screen and (max-width:800px) {
+/* For tablets: */
+    .main {
+        width: 80%;
+        padding: 0;
     }
-    #contact {
+
+    .right {
+        width: 100%;
+}
+}
+@media only screen and (max-width:500px) {
+/* For mobile phones: */
+    .menu, .main, .right {
         width: 100%;
     }
 }
